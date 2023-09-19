@@ -1,8 +1,8 @@
 // Create a variable "timeOfDay" and assign it a string
-
+let timeOfDay = "morning";
 // Create a variable "greeting" that references a template literal
 // Use "timeOfDay" in the template literal to create a message like "Good morning!" or "Good evening!"
-
+let greeting = "Good $(timeOfDay)"
 // Print "greeting"
 
 // Create a new variable, but do not assign it a value
